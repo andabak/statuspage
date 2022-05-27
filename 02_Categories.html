@@ -1,0 +1,32 @@
+---
+title: "Posts by categories"
+permalink: /categories
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  {% for cat in site.categories %}
+  <h3>{{ cat[0] }}</h3>
+  <ul>
+    {% for post in cat[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+</div>
+
+
