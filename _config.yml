@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Astar Network Status Page contains and up-to-date information and announcements related to 
    netowrk performance and technical updates such as new releases for 
   Shiden and Astar Networks.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://status.astar.network" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "statuspage" # the subpath of your site, e.g. /blog
+url: "https://andabakus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: astarNetwork
 github_username:  AstarNetwork
 
